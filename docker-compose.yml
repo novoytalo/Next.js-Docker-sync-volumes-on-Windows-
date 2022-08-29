@@ -1,0 +1,13 @@
+version: "3"
+services:
+  node-ytalo:
+    build:
+      context: .
+      dockerfile: DockerFile.dev
+    ports:
+      - "3000:3000"
+    command: "npm run dev"
+    restart: always
+    volumes:
+      - .:/home/node/app
+  
