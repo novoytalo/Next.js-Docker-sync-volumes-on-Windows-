@@ -1,6 +1,6 @@
 {
   "name": "myappytalo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@types/node": "18.7.13",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.8.2"
