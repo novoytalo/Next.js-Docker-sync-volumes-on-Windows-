@@ -9,4 +9,5 @@ docker-compose up --build
 
 -> update 0.1.1: correct the bug about name of git, install localy the node_modules
 
-If you want to install the node_modules only in the 
+
+If you want to install the node_modules only in the container use in DockerFile "COPY" command.
